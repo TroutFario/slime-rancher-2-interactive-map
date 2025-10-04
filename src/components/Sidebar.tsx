@@ -119,6 +119,7 @@ export default function Sidebar({
                     </div>
 
                     <hr />
+                    <p>Import/Export user pins</p>
 
                     <div className="flex flex-col md:flex-row justify-between gap-4 lg:gap-6 mb-4">
                         <ExportUserPinsButton user_pins={user_pins} />
