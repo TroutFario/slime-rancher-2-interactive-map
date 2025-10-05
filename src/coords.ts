@@ -19,6 +19,6 @@ const convert = true;
 
 export function convertCoords(x: number, y: number): [number, number] {
     if (convert)
-        return [ax * x + bx - 135.5, ay * y + by];
+        return [ax * x + bx, ay * y + by];
     return [x, y];
 }
