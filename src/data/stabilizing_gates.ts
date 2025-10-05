@@ -6,11 +6,11 @@ export const stabilizing_gates: { [key: string]: StabilizingGate } = {
         description: "",
     },
     "stabilizinggate_2": {
-        position: { x: 1.5, y: -47.8 },
+        position: { x: 1.5, y: -47.8 }, // [-47, -10.8]
         description: "",
     },
     "stabilizinggate_3": {
-        position: { x: -15.2, y: -44.3 },
+        position: { x: -15.2, y: -44.3 }, // [-61.7003, -6.8555]
         description: "Inside the locked door from the Shadow Plort Door nearby.",
     },
     "stabilizinggate_4": {
@@ -22,7 +22,7 @@ export const stabilizing_gates: { [key: string]: StabilizingGate } = {
         description: "Located on the floating island of debris.",
     },
     "stabilizinggate_6": {
-        position: { x: 64.9, y: -99.2 },
+        position: { x: 64.9, y: -99.2 }, // [58.5, -88.6]
         description: "",
     },
 };

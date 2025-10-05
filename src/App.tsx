@@ -32,7 +32,7 @@ const map_bounds: { [key in MapType]: L.LatLngBoundsExpression } = {
     ],
     [MapType.labyrinth]: [
         [200, -200],
-        [-70, 60]
+        [-200, 200]
     ],
     [MapType.sr1]: [
         [100, -150],

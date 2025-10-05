@@ -4,6 +4,7 @@ import { useContext, useEffect, useState } from "react";
 import { FoundContext } from "../FoundContext";
 import L from "leaflet";
 import { ShadowDoor } from "../types";
+import { convertCoords } from "../coords";
 import { handleChecked } from "../util";
 import { shadow_doors } from "../data/shadow_doors";
 
@@ -44,7 +45,7 @@ export function ShadowDoorIcon({
     });
 
     return (
-        <Marker key={key_name} position={[shadow_door.position.x, shadow_door.position.y]} icon={icon}>
+        <Marker key={key_name} position={convertCoords(shadow_door.position.x, shadow_door.position.y)} icon={icon}>
             <Popup>
                 <div className="flex flex-col gap-2">
                     <div className="flex justify-between items-center gap-5">
